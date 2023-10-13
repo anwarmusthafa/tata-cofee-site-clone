@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    position: fixed;
+    background-color: white;
+    z-index: 3;
+}
+.header-left{
+    width: 50%;
+    height: 100%;
+    
+}
+.header-left img{
+    margin-top: 28px;
+    margin-left: 13px;
+}
+.header-middle{
+    width: 45%;
+    height: 100%;
+    
+}
+.header-right{
+    width: 5%;
+    height: 100%;
+   
+}
+.header-right img{
+    margin-left: 12px;
+    padding-top: 8px;
+}
+.tata-links{
+    margin-left: 79px;
+}
+.tata-links li{
+  display: inline;
+  list-style-type: none;
+  border-right: 1px solid black;
+  color: #000;
+  padding: 0 15px;
+}
+.tatacoffee-links{
+    margin-left: 69px;
+}
+.tatacoffee-links li{
+    display: inline;
+    list-style-type: none;
+    color: #000;
+    padding: 0 5px;
+
+}
+.tata-links a{
+    color: #000;
+    margin: 0;
+}
+.tatacoffee-links a{
+    color: #1960a4;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.tatacoffee-links a:hover{
+    color: #000;
+}
+.video-container{
+    width: 100%;
+
+}
+.video-div{
+    width: 100%;
+    vertical-align: middle;
+    
+}
+video{
+    object-fit: contain;
+    width: 100%;
+}
+.banner-div{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+.banner-image{
+    width: 100%;
+}
+
+.banner-text-div{
+    position: absolute;
+    width: 80%;
+    height: 30%;
+    margin-top: 369px;
+    display: flex;
+    flex-direction: column;
+}
+.banner-text-div h2{
+    color: white;
+    margin: 0;
+    font-size: 50px;
+}
+.banner-field-content h4{
+    margin: 0;
+    margin: 8px;
+    margin-left: 1px;
+}
+.banner-field-content{
+    position: absolute;
+    width: fit-content;
+    height: 30px;
+    background-color: #abda3d;
+    margin-top: 122px;
+    color: #475e11  
+}
+.product-container{
+    width: 100%;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.product-div{
+    width: 70%;
+    height: 80%;
+    margin-top:98px;
+    display: flex;
+    
+}
+.products{
+    width: 25%;
+    height: 100%;
+    
+}
+.product-image{
+    width: 100%;
+    height: 60%;
+}
+.product-image img{
+    height: 100%;
+    width: 100%;
+}
+.products h1{
+    margin-left: 37px;
+    margin-top: 5px;
+    color: #1960a4;
+}
+.map-container{
+    width: 100%;
+    height: 683px;
+    background-color: #e5e5e5;
+    display: flex;
+}
+.map-text-div{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+}
+.map-text-div h1,p{
+    margin: 12px;
+    color: #1960a4;
+    margin-left: 79px;
+}
+.map-text-div p{
+    font-weight:lighter;
+}
+.map-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: 80%;}
+.map{
+        margin-top: 171px;
+        margin-left: 75px;
+
+}
+.about-container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-content{
+    width: 80%;
+    height: 70%;
+    
+}
+.about-text p{
+    color: #5f5f5f;
+    font-size: 20px;
+    margin-top: 23px;
+    margin-left: 5px;
+    font-weight: lighter;
+    line-height: 1.25;
+}
+.policy-container{
+    width: 100%;
+    height: 70px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+}
+.policy{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.followus{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.policy-container li{
+    display: inline;
+    margin: 10px;
+    color: #ffff;
+}
+.policy a{
+    color: #ffff;
+    font-weight: bold;
+}
+.followus img{
+    height: 29px;
+}
+.copyright-container{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: #212121;
+    text-align: center;
+    justify-content: center;
+}
+.copyright-container p{
+    color: #ffff;
+    font-weight: lighter;
+    font-size: small;
+}
